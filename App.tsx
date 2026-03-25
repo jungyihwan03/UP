@@ -29,8 +29,8 @@ export default function App() {
         {/* <BasicInfo /> */}
         {/* <HomeScreen /> */}
         {/* <SearchScreen /> */}
-        {/* <BrandSelectScreen /> */}
-        <MenuDetailScreen />
+        <BrandSelectScreen />
+        {/* <MenuDetailScreen /> */}
         {/* <Map /> */}
         {/* <CafeDetailScreen /> */}
         {/* <CafeMenuScreen /> */}

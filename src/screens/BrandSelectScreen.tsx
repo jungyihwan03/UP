@@ -44,7 +44,7 @@ export default function BrandSelectScreen() {
       <StatusBar style="dark" />
 
       {/* 🌟 노치 및 헤더 영역 */}
-      <SafeAreaView edges={['top']} style={styles.headerArea}>
+      <View style={styles.headerArea}>
         <NavHeader 
           title="브랜드 선택" 
           onBack={() => console.log('뒤로 가기')} 
@@ -60,7 +60,7 @@ export default function BrandSelectScreen() {
             onTabPress={setActiveTab} 
           />
         </View>
-      </SafeAreaView>
+      </View>
 
       {/* 메인 스크롤 콘텐츠 */}
       <ScrollView contentContainerStyle={styles.scrollArea} showsVerticalScrollIndicator={false}>

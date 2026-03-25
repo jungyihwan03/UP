@@ -95,9 +95,9 @@ export const FindAccountTemplate = ({
       <StatusBar style="dark" />
 
       {/* 🌟 노치 영역과 헤더를 감싸는 SafeAreaView (흰색 배경) */}
-      <SafeAreaView edges={['top']} style={styles.headerArea}>
+      <View style={styles.headerArea}>
         <NavHeader title={appBarTitle} onBack={() => console.log('뒤로가기 클릭')} />
-      </SafeAreaView>
+      </View>
 
       <View style={styles.content}>
         <View style={styles.iconContainer}>

@@ -23,9 +23,9 @@ export default function App() {
       <SafeAreaView style={{ flex: 1 }} edges={['top', 'bottom']}>
         
         {/* <Login /> */}
-        {/* <SignUp /> */}
+        <SignUp />
         {/* <FindPassword /> */}
-        <FindId />
+        {/* <FindId /> */}
         {/* <BasicInfo /> */}
         {/* <HomeScreen /> */}
         {/* <SearchScreen /> */}

@@ -92,9 +92,10 @@ const styles = StyleSheet.create({
     width: '100%', 
     paddingTop: 12, 
     paddingHorizontal: 24, 
-    paddingBottom: 12, 
+    paddingBottom: 24, 
     backgroundColor: Colors.surface, 
     borderTopWidth: 1, 
     borderTopColor: Colors.divider 
   },
+  
 });

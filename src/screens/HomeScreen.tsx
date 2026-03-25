@@ -26,7 +26,7 @@ export default function HomeScreen() {
 
   return (
     // edges={['top', 'left', 'right']} 를 통해 기기 상단(노치 등) 영역을 자동으로 띄워줍니다.
-    <SafeAreaView style={styles.safeArea} edges={['top', 'left', 'right']}>
+    <View style={styles.safeArea}>
       {/* 🌟 기기 상태바(시간, 배터리 등)를 어두운 색으로 표시 */}
       <StatusBar style="dark" />
       
@@ -106,7 +106,7 @@ export default function HomeScreen() {
 
         <BottomNavBar activeTab="홈"/>
       </View>
-    </SafeAreaView>
+    </View>
   );
 }
 

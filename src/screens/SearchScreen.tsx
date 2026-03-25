@@ -19,7 +19,7 @@ export default function SearchScreen() {
   const categories = ['커피', '논커피', '스무디/프라푸치노', '티(Tea)', '베이커리/디저트'];
 
   return (
-    <SafeAreaView style={styles.safeArea} edges={['top', 'bottom']}>
+    <View style={styles.safeArea}>
       <StatusBar style="dark" />
       
       <View style={styles.container}>
@@ -101,7 +101,7 @@ export default function SearchScreen() {
           </View>
         </ScrollView>
       </View>
-    </SafeAreaView>
+    </View>
   );
 }
 

@@ -19,17 +19,17 @@ export default function App() {
   return (
     <SafeAreaProvider style={{ flex: 1 }}>
       {/* 🌟 진짜 방패막(SafeAreaView)을 여기에 칩니다! */}
-      {/* edges 속성으로 위(top), 아래(bottom) 모두 보호하라고 확실히 알려줍니다. */}
-      <SafeAreaView style={{ flex: 1, backgroundColor: '#FFFFFF' }} edges={['top', 'bottom']}>
+      {/* edges 속성으로 위(top), 아래(bottom) 모두 보호하라고 확실히 알려줍니다. edges={['top', 'bottom']}*/}
+      <SafeAreaView style={{ flex: 1, backgroundColor: '#FFFFFF' }}>
         
         {/* <Login /> */}
         {/* <SignUp /> */}
         {/* <FindPassword /> */}
         {/* <FindId /> */}
         {/* <BasicInfo /> */}
-        {/* <HomeScreen /> */}
+        <HomeScreen />
         {/* <SearchScreen /> */}
-        <BrandSelectScreen />
+        {/* <BrandSelectScreen /> */}
         {/* <MenuDetailScreen /> */}
         {/* <Map /> */}
         {/* <CafeDetailScreen /> */}
